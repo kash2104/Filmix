@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <div className='flex items-center justify-between p-4 z-[100] absolute w-full'>
 
-        <Link to='/'>
+        <Link to='/Filmix'>
 
           <h1 className='text-red-600 text-4xl font-bold cursor-pointer uppercase'>
             filmix
@@ -29,7 +29,7 @@ const Navbar = () => {
         {
           user?.email ? 
           <div>
-              <Link to='/'>
+              <Link to='/Filmix'>
 
                 <button className='text-white pr-4'>
                     Mood
